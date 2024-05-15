@@ -130,9 +130,9 @@ document.querySelector(".hire-me").addEventListener("click",function(){
 
 /*======================= Typing Animation =========================== */
 
-var typed = new Typed(".typing",{
+var Typed = new Typed(".typing",{
     strings:[ ,"web developer","web designer"],
-    typespeed:7,
+    typespeed:70,
     Backspeed:0,
     loop:true
 });
